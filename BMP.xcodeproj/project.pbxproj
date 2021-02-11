@@ -7,15 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2475160025CDDA8E00EAE3E1 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247515FF25CDDA8E00EAE3E1 /* SecondViewController.swift */; };
 		24CE9CD225CCF9B400DE7582 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CE9CD125CCF9B400DE7582 /* AppDelegate.swift */; };
 		24CE9CD425CCF9B400DE7582 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CE9CD325CCF9B400DE7582 /* SceneDelegate.swift */; };
 		24CE9CD625CCF9B400DE7582 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CE9CD525CCF9B400DE7582 /* ViewController.swift */; };
 		24CE9CD925CCF9B400DE7582 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24CE9CD725CCF9B400DE7582 /* Main.storyboard */; };
 		24CE9CDB25CCF9B500DE7582 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24CE9CDA25CCF9B500DE7582 /* Assets.xcassets */; };
 		24CE9CDE25CCF9B500DE7582 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24CE9CDC25CCF9B500DE7582 /* LaunchScreen.storyboard */; };
+		24CE9CEC25CCFB2E00DE7582 /* SpotifyiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24CE9CEB25CCFB2E00DE7582 /* SpotifyiOS.framework */; };
+		24CE9D0B25CD061500DE7582 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CE9D0A25CD061500DE7582 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		247515FF25CDDA8E00EAE3E1 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		24CE9CCE25CCF9B400DE7582 /* BMP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BMP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		24CE9CD125CCF9B400DE7582 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		24CE9CD325CCF9B400DE7582 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +28,9 @@
 		24CE9CDA25CCF9B500DE7582 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		24CE9CDD25CCF9B500DE7582 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		24CE9CDF25CCF9B500DE7582 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24CE9CE625CCFA7200DE7582 /* BMP-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BMP-Bridging-Header.h"; sourceTree = "<group>"; };
+		24CE9CEB25CCFB2E00DE7582 /* SpotifyiOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SpotifyiOS.framework; sourceTree = "<group>"; };
+		24CE9D0A25CD061500DE7582 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +38,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24CE9CEC25CCFB2E00DE7582 /* SpotifyiOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +48,7 @@
 		24CE9CC525CCF9B400DE7582 = {
 			isa = PBXGroup;
 			children = (
+				24CE9CE625CCFA7200DE7582 /* BMP-Bridging-Header.h */,
 				24CE9CD025CCF9B400DE7582 /* BMP */,
 				24CE9CCF25CCF9B400DE7582 /* Products */,
 			);
@@ -59,9 +68,12 @@
 				24CE9CD125CCF9B400DE7582 /* AppDelegate.swift */,
 				24CE9CD325CCF9B400DE7582 /* SceneDelegate.swift */,
 				24CE9CD525CCF9B400DE7582 /* ViewController.swift */,
+				247515FF25CDDA8E00EAE3E1 /* SecondViewController.swift */,
 				24CE9CD725CCF9B400DE7582 /* Main.storyboard */,
 				24CE9CDA25CCF9B500DE7582 /* Assets.xcassets */,
 				24CE9CDC25CCF9B500DE7582 /* LaunchScreen.storyboard */,
+				24CE9D0A25CD061500DE7582 /* Constants.swift */,
+				24CE9CEB25CCFB2E00DE7582 /* SpotifyiOS.framework */,
 				24CE9CDF25CCF9B500DE7582 /* Info.plist */,
 			);
 			path = BMP;
@@ -140,6 +152,8 @@
 				24CE9CD625CCF9B400DE7582 /* ViewController.swift in Sources */,
 				24CE9CD225CCF9B400DE7582 /* AppDelegate.swift in Sources */,
 				24CE9CD425CCF9B400DE7582 /* SceneDelegate.swift in Sources */,
+				2475160025CDDA8E00EAE3E1 /* SecondViewController.swift in Sources */,
+				24CE9D0B25CD061500DE7582 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,13 +302,19 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RHJFMU3K87;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BMP",
+				);
 				INFOPLIST_FILE = BMP/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_LDFLAGS = "-Objc";
 				PRODUCT_BUNDLE_IDENTIFIER = com.TimVanCauwenberge.BMP;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BMP-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -307,13 +327,19 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RHJFMU3K87;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BMP",
+				);
 				INFOPLIST_FILE = BMP/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_LDFLAGS = "-Objc";
 				PRODUCT_BUNDLE_IDENTIFIER = com.TimVanCauwenberge.BMP;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BMP-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
